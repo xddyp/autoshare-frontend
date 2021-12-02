@@ -24,7 +24,7 @@ const SearchListings = () => {
 	};
 	const tomorrow = new Date();
 	tomorrow.setHours(0, 0, 0, 0);
-	tomorrow.setDate(tomorrow.getDate() + 1);
+	tomorrow.setDate(tomorrow.getDate() + 2);
 	return (
 		<LocalizationProvider dateAdapter={AdapterDateFns}>
 			<Formik
